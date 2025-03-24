@@ -11,7 +11,6 @@ import java.io.Serializable;
 public class Artifact implements Serializable {
 
     @Id
-
     private String id;
 
     private String name;
@@ -22,6 +21,7 @@ public class Artifact implements Serializable {
 
     @ManyToOne
     private Wizard owner;
+
 
     public Artifact() {
     }
